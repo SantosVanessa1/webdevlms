@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <title>Popup Box</title>
+
+
+
+
+<button onclick="myFunction()">click</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Do you want to continue your training with us?")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
